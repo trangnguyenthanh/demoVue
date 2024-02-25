@@ -71,7 +71,7 @@ const showConfirmModal = () => {
 };
 
 const logout = () => {
-  window.location.href = "/login";
+  window.location.href = "/";
 };
 </script>
 <style>

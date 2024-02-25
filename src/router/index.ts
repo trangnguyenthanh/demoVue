@@ -4,12 +4,9 @@ import terms from "../rules/terms.vue"
 import TabsPage from '../views/TabsPage.vue'
 
 const routes: Array<RouteRecordRaw> = [
+  
   {
-    path: '/',
-    redirect: '/login'
-  },
-  {
-    path: '/login', 
+    path: '/', 
     component: () => import('@/login/loginPage.vue')
 
   },
